@@ -2689,7 +2689,7 @@ html {
   background-color: rgb(204 223 241 / var(--tw-bg-opacity));
 }
 .bg-veena {
-  background-image: url("/assets/logo/veena-big.png");
+  background-image: url("/assets/veena-big.png");
   background-repeat: no-repeat;
   background-blend-mode:luminosity;
 }
@@ -2699,7 +2699,7 @@ html {
   background-color: rgb(0 93 185 / var(--tw-bg-opacity));
 }
 .bg-test{
-  background-image: url("/assets/icons/icon_shaky_build.svg");
+  background-image: url("/assets/icon_shaky_build.svg");
 }
 
 .bg-sage4 {
@@ -3211,8 +3211,8 @@ html {
 @font-face {
   font-family: 'StabilGrotesk';
 
-  src: url('./fonts/StabilGrotesk-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/StabilGrotesk-Regular.woff') format('woff');
+  src: url('./StabilGrotesk-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./StabilGrotesk-Regular.woff') format('woff');
 
   /* Modern Browsers */
 
@@ -3224,8 +3224,8 @@ html {
 @font-face {
   font-family: 'StabilGrotesk';
 
-  src: url('./fonts/StabilGrotesk-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/StabilGrotesk-Medium.woff') format('woff');
+  src: url('./StabilGrotesk-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./StabilGrotesk-Medium.woff') format('woff');
 
   /* Modern Browsers */
 
