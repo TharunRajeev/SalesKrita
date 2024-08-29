@@ -258,7 +258,7 @@
             <div class="flex items-center justify-between">
               <button
                 type="submit"
-                onclick="sendEmail()"
+                onclick="event.preventDefault(); sendEmail()"
                 class="py-2 px-4 font-bold bg-secondary3  hover:bg-secondary4 text-white rounded focus:outline-black"
               >Send</button>
               <div>
@@ -287,8 +287,8 @@
         <div class=" text-slate-300 pb-1">
           <span
             class="eml"
-            data-x="PKRajeev"
-            data-y="Saleskrita.in"
+            data-x="rajeev"
+            data-y="saleskrita.com"
           >
          </span>
         </div>

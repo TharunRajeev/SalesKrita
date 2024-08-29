@@ -123,7 +123,7 @@ function sendEmail() {
     message: document.getElementById("message").value
 
   }
-  emailjs.send("service_vgm2nxr", "template_kkae8uh", param).then(alert("Email Sent Successfully!!"))
+  emailjs.send("service_vgm2nxr", "template_kkae8uh", param).then(alert("Response recorded Successfully!"))
 }
 
 
