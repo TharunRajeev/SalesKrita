@@ -123,7 +123,17 @@ function sendEmail() {
     message: document.getElementById("message").value
 
   }
-  emailjs.send("service_vgm2nxr", "template_kkae8uh", param).then(alert("Response recorded Successfully!"))
+  emailjs.send("service_vgm2nxr", "template_kkae8uh", param).then(alert("Response recorded Successfully!")).then(
+    document.getElementById("email").value = "",
+    document.getElementById("name").value = "",
+    document.getElementById("message").value = "",
+    document.getElementById("organization").checked = false,
+    document.getElementById("frontline-salesperson").checked = false,
+    document.getElementById("first-time-managers").checked = false,
+    document.getElementById("middle-manager").checked = false,
+    document.getElementById("top-management").checked = false,
+    document.getElementById("head-of-organization").checked = false,
+  )
 }
 
 
